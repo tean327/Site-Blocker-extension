@@ -1,0 +1,17 @@
+{
+	"manifest_version": 3,
+	"name": "blocker",
+	"version": "0.0.1",
+	"content_scripts": [
+		{
+			"matches": [ "<all_urls>" ],
+			"js": [ "Content.js" ]
+		}
+	],
+	"web_accessible_resources": [
+		{
+			"resources": [ "HTMLPage1.html", "ExtensionStyle.css"],
+			"matches": [ "<all_urls>" ]
+		}
+	]
+}

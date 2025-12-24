@@ -1,0 +1,24 @@
+﻿body
+{
+    background-color: darkgrey
+}
+h1{
+    font-size: 50px
+}
+h2{
+    font-size: 60px
+}
+a{
+    color: pink;
+    font-size: 80px;
+}
+div{
+    left:10px;
+    display: inline-block;
+}
+iframe{
+/*    position: center;
+    margin-left: 700px;
+    margin-top: 10px;*/
+    display: inline-block;
+}
