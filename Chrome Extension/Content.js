@@ -13,9 +13,6 @@ switch (window.location.hostname) {
             .then(css => {
                 document.head.appendChild = css;
             }); break;
-    case "www.bible.com":
-        alert("tié un bon mon frr");
-        break
     case "x.com":
         fetch(htmlPath)
             .then(response => response.text())
@@ -49,5 +46,6 @@ switch (window.location.hostname) {
             .then(css => {
                 document.head.appendChild = css;
             }); break;
+
 
 }
